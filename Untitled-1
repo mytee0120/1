@@ -1,0 +1,26 @@
+<html>
+<head>
+<meta http-equiv="content=type" content="text/html; charset=utf-8"/>
+<title>โปรแกรมส่งค่าตัวแปร</title>
+</head>
+<body>
+    <h1>โปรแกรมส่งค่าตัวแปร</h1>
+    <br>กรุณากรอกข้อมูลให้ครบ<br/>
+<form action="" method="post" name="form1" id="form1">
+    <p> <label>ชื่อ <input type="text" name="name" id="name"/></label></p>
+    <p> <label>นามสกุล <input type="text" name="surname" id="surname"/></label></p>
+    <p> <label>ชั้น <input type="text" name="classroom" id="classroom"/></label></p>
+    <p> <label> <input type="submit" name="summit" id="summit" value="Submit"/></label>
+        <label> <input type="reset" name="reset" id="reset" value="Reset"/></label>
+    </p>
+</form>
+<hr>
+<php
+$_POST[name];
+$_POST[surname];
+$_POST[classroom];
+echo"ชื่อ  $name  นามสกุล $surname <br>" ;
+echo"ชั้น $classroom " ;
+?>
+</body>
+</html>
